@@ -1,0 +1,21 @@
+layout: tripleHorizontal  # Options: single, tripleHorizontal, tripleVertical
+headerTitle: 캘린더 일정
+displayCalendarIndices: [0, 1, 2]
+calendars:
+  - roomName: Schedule 1
+    googleCalendarId: resource1@resource.calendar.google.com
+  - roomName: Schedule 2
+    googleCalendarId: resource2@resource.calendar.google.com
+  - roomName: Schedule 3
+    googleCalendarId: resource3@resource.calendar.google.com
+oauth:
+  webClientId: DUMMY_WEB_CLIENT_ID
+  androidClientId: DUMMY_ANDROID_CLIENT_ID
+  desktopClientId: DUMMY_DESKTOP_CLIENT_ID
+  desktopClientSecret: DUMMY_DESKTOP_CLIENT_SECRET
+refreshIntervalMinutes: 1
+timezone: Asia/Seoul
+use24HourFormat: false
+startInFullscreen: true
+pastMinutes: 60
+futureMinutes: 300
