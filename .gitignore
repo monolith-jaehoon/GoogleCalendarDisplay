@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+**/flutter/generated*
+**/Flutter/Generated*
+/android/build/reports/problems/problems-report.html
